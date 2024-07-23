@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <p>Your adventure starts here!</p>
+  </header>
+  <main>
+    <section id="beach-recommendations">
+      <h2>Beach Recommendations</h2>
+      <div class="beach">
+        <img src="beach1img.jpg" alt="Beach 1">
+        <p>Description of Beach 1.</p>
+      </div>
+      <div class="beach">
+        <img src="beach2imsge.jpg" alt="Beach 2">
+        <p>Description of Beach 2.</p>
+      </div>
+    </section>
+    <section id="temple-recommendations">
+      <h2>Temple Recommendations</h2>
+      <div class="temple">
+        <img src="ttemple1.jpg" alt="Temple 1">
+        <p>Description of Temple 1.</p>
+      </div>
+      <div class="temple">
+        <img src="temple2.png" alt="Temple 2">
+        <p>Description of Temple 2.</p>
+      </div>
+    </section>
+    <section id="country-recommendations">
+      <h2>Recommendations Based on Country</h2>
+      <select id="country-select">
+        <option value="">Select a country</option>
+        <option value="usa">USA</option>
+        <option value="japan">Japan</option>
+        <!-- Add more options as needed -->
+      </select>
+      <div id="recommendations"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Our Website</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
